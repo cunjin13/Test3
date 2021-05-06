@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubActivity"
+    android:weightSum = "10"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+
+    >
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_weight="2"
+        android:onClick="btn1Click"
+        android:text="버튼1" />
+
+    <Button
+        android:id="@+id/bt2ac"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_weight="2"
+        android:text="버튼2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_weight="2"
+        android:text="버튼3"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_weight="2"
+        android:text="버튼4"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_weight="2"
+        android:text="버튼5"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
