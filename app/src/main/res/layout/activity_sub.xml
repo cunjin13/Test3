@@ -24,7 +24,7 @@
             app:layout_constraintHorizontal_bias="0.488"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
-'
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,10 +32,17 @@
         android:orientation="horizontal"
         android:layout_weight="2.5"
         >
+
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="454dp"
             android:layout_height="match_parent"
             android:text="달 전체 일정" />
+
+        <Button
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:textSize="100px"
+            android:text="+" />
     </LinearLayout>
 
     <LinearLayout
@@ -45,10 +52,16 @@
         android:orientation="horizontal"
         android:layout_weight="2.5"
         >
+
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="458dp"
             android:layout_height="match_parent"
             android:text="일수주기" />
+        <Button
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:textSize="100px"
+            android:text="+" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,7 +73,7 @@
         <Button
             android:id="@+id/bt1"
             android:layout_width="wrap_content"
-            android:layout_height="84dp"
+            android:layout_height="match_parent"
             android:onClick="btn1Click"
             android:layout_weight="2"
             android:text="버튼1" />
@@ -68,25 +81,25 @@
         <Button
             android:id="@+id/bt2ac"
             android:layout_width="wrap_content"
-            android:layout_height="84dp"
+            android:layout_height="match_parent"
             android:layout_weight="2"
             android:text="버튼2"
             />
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="84dp"
+            android:layout_height="match_parent"
             android:layout_weight="2"
             android:text="버튼3"
             tools:ignore="MissingConstraints" />
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="84dp"
+            android:layout_height="match_parent"
             android:layout_weight="2"
             android:text="버튼4"
             tools:ignore="MissingConstraints" />
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="84dp"
+            android:layout_height="match_parent"
             android:layout_weight="2"
             android:text="버튼5"
             tools:ignore="MissingConstraints" />
