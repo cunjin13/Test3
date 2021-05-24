@@ -20,7 +20,7 @@ public class SubActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.bt2ac);
         button.setOnClickListener(new View.OnClickListener() {
 
-            public void onClick(View view){
+            public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
